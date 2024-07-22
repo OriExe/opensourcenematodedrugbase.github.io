@@ -1,0 +1,9 @@
+# Site settings
+title: Open Source Nematode drugbase Title
+author:
+  name: Your Name
+  email: your-email@domain.com
+description: "A platform for facilitating drug discovery targeting parastic nematodes."
+
+# Build settings
+remote_theme: jekyll/minima
