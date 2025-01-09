@@ -5,13 +5,25 @@
         <a href="https://www.westminster.ac.uk/" target="_blank">
         <img class="UoWLogo" src="@/assets/UoW_Logo.png" alt="UoW">
         </a>
+      </div>
 
-        
+      <div class ="socials">
 
-        <div class="links">
-          <!-- <li><router-link to="/login">Login</router-link></li> -->
-          <a href="https://github.com/OpenSourceNematodeDrugbase" target="_blank">GitHub</a>
-        </div>
+        <a href="https://github.com/OpenSourceNematodeDrugbase" target="_blank">
+        <img class="socials" src="@/assets/GitHub_Logo.png" alt="GitHub_Logo">
+        </a>
+
+        <a href="https://github.com/OpenSourceNematodeDrugbase" target="_blank">
+        <img class="socials" src="@/assets/GitHub_Logo.png" alt="GitHub_Logo">
+        </a>
+
+        <a href="https://github.com/OpenSourceNematodeDrugbase" target="_blank">
+        <img class="socials" src="@/assets/GitHub_Logo.png" alt="GitHub_Logo">
+        </a>
+
+        <a href="https://github.com/OpenSourceNematodeDrugbase" target="_blank">
+        <img class="socials" src="@/assets/GitHub_Logo.png" alt="GitHub_Logo">
+        </a>
 
       </div>
     </footer>
@@ -33,23 +45,16 @@
 
 .container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.links {
+.socials {
   display: flex;
   align-items: center;
-  list-style-type: none;
-}
-
-.links a {
-  color: rgb(0, 0, 0);
-  margin: 0 22px;
-  text-decoration: none;
-  font-weight: 450;
-  font-size: 36px;
+  flex-wrap: wrap;
+  max-width: 60px;
+  padding-right: 10px;
 }
 
 .links a:hover {
@@ -59,6 +64,5 @@
 .UoWLogo {
   max-width: 500px;
 }
-
 </style>
   
