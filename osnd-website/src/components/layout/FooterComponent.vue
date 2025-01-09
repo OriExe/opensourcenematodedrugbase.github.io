@@ -1,10 +1,15 @@
 <template>
     <footer class="footer">
       <div class="container">
-        <img class="UoWLogo" src="@/assets/UoW_Logo.png" alt="Logo">
+
+        <a href="https://www.westminster.ac.uk/" target="_blank">
+        <img class="UoWLogo" src="@/assets/UoW_Logo.png" alt="UoW">
+        </a>
+
+        
 
         <div class="links">
-          <li><router-link to="/login">Login</router-link></li>
+          <!-- <li><router-link to="/login">Login</router-link></li> -->
           <a href="https://github.com/OpenSourceNematodeDrugbase" target="_blank">GitHub</a>
         </div>
 
@@ -36,13 +41,15 @@
 .links {
   display: flex;
   align-items: center;
-  list-style-type: none
+  list-style-type: none;
 }
 
 .links a {
   color: rgb(0, 0, 0);
-  margin: 0 10px;
+  margin: 0 22px;
   text-decoration: none;
+  font-weight: 450;
+  font-size: 36px;
 }
 
 .links a:hover {
@@ -50,14 +57,7 @@
 }
 
 .UoWLogo {
-  width: 150px; /* Sets the width to 100px */
-  height: auto; /* Maintains the aspect ratio */
-}
-
-.funding {
-  position:absolute;
-  left: 200px;
-  color: rgb(0, 0, 0);
+  max-width: 500px;
 }
 
 </style>

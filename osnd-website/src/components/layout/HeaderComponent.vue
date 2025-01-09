@@ -1,8 +1,10 @@
 <template>
     <header class="header">
       <div class="container">
-        <img class="header-logo" src="@/assets/OSNDB avatar_7.png" alt="Logo">
-        <h1 class="logo">Open Nematode Drub-Based Project</h1>
+        <router-link to="/">
+          <img class="header-logo" src="@/assets/OSNDB avatar_7.png" alt="Logo">
+        </router-link>
+        <h1 class="logo">Open Nematode Drug-Based Project</h1>
         <nav class="nav">
           <ul>
             <li><router-link to="/">Home</router-link></li>
