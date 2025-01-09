@@ -68,8 +68,8 @@ input[type=text] {
 }
 
 textarea {
-  width: 53.5%;
-  height: 150px;
+  width: 52%;
+  height: 300px;
   padding: 12px 20px;
   margin-top: 20px;
   box-sizing: border-box;

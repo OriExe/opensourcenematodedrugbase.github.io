@@ -11,6 +11,8 @@ export default {
 <template>
   <div class="home">
     <h1>Contact Us</h1>
-    <ContactUsFormComponent/>
+    <p>Thank you for your interest in the open-source nematode drug-based project.</p>
+    <p>For inquiries, please contact a.barr1@westminster.ac.uk</p>
+    <!-- <ContactUsFormComponent/> -->
   </div>
 </template>

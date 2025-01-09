@@ -1,13 +1,14 @@
 <template>
     <header class="header">
       <div class="container">
-        <h1 class="logo">Open Source Nematode Project</h1>
+        <img class="header-logo" src="@/assets/OSNDB avatar_7.png" alt="Logo">
+        <h1 class="logo">Open Nematode Drub-Based Project</h1>
         <nav class="nav">
           <ul>
             <li><router-link to="/">Home</router-link></li>
             <li><router-link to="/about">About</router-link></li>
-            <li><router-link to="/blog">Blog</router-link></li>
-            <li><router-link to="/contact">Contact Us</router-link></li>
+            <!-- <li><router-link to="/blog">Blog</router-link></li> -->
+            <li><router-link to="/contact">Contact</router-link></li>
           </ul>
         </nav>
       </div>
@@ -36,20 +37,30 @@
   .logo {
     font-size: 1.5em;
     font-weight: bold;
+    position: absolute;
+    left: 150px;
   }
   
   .nav ul {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     list-style: none;
   }
   
   .nav a {
     color: white;
     text-decoration: none;
+    font-size: 24px;
+    
   }
   
   .nav a:hover {
     text-decoration: underline;
   }
+
+  .header-logo {
+    width: 100px; /* Sets the width to 100px */
+    height: auto; /* Maintains the aspect ratio */
+  }
+
 </style>  
