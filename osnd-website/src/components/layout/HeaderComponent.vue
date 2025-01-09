@@ -28,6 +28,7 @@
     background-color: #465956;
     padding: 20px;
     color: white;
+    border-radius: 20px;
   }
   
   .container {

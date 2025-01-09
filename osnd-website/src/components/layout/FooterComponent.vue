@@ -39,6 +39,7 @@ export default {
   background-color: #bad1ce;
   color: white;
   padding: 20px;
+  border-radius: 20px;
 }
 
 .container {
