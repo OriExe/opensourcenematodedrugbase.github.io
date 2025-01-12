@@ -8,16 +8,18 @@
     <!--Will need to ask each of the team members the email they want to be shown and their role-->
     <p>The open-source nematode drub-based project team is comprised of students and academics from the University of Westminster. Our ambition is to create a platform that is open access that enables the advancement of research regarding diseases caused by nematodes.</p>
     <ul>
-        <li>Alastair Barr -</li>
-        <li>Freddie Partidge - </li>
-        <li>Dipankar Sengupta -</li>
-        <li>Teddy Seyoum - </li>
-        <li>Polly Hayes - </li>
+        <li>Alastair Barr – a.barr1@westminster.ac.uk</li>
+        <li>Freddie Patridge - f.partridge@westminster.ac.uk</li>
+        <li>Dipankar Sengupta - D.Sengupta@westminster.ac.uk</li>
+        <li>Teddy Seyoum - T.Seyoum@westminster.ac.uk</li>
+        <li>Polly Hayes - P.Hayes@westminster.ac.uk</li>
+        <li>David Guiliano - D.Guiliano@westminster.ac.uk</li>
+        <br>
         <li>Gabriela Mondini Moraes - </li>
         <li>Magdalena Ruiz Perez - </li>
         <li>Oliver Guy – Website Developer – o.guy@westminster.ac.uk</li>
-        <li>Azam Farooqui – Website Developer – A.Farooqui@Westminster.ac.uk </li>
-        <li>Mateo Batol -</li>
+        <li>Azam Farooqui – Website Developer – A.Farooqui@westminster.ac.uk </li>
+        <li>Mateo Batol - batolm2@westminster.ac.uk</li>
         <li>Paule Abrutyte -</li>
     </ul>
   </section>
